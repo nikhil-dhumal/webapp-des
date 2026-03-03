@@ -1,0 +1,17 @@
+num_cores: 4
+max_threads: 8
+num_users: 50
+
+simulation_time: 10000
+warmup_time: 1000
+
+context_switch_overhead: 0.001
+
+retry:
+  enabled: true
+  max_retries: 1
+  retry_delay: 0.1
+
+overload_control:
+  enabled: true
+  queue_limit: 100
